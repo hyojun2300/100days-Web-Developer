@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "섹션8 반응형 웹",
+			"path": "."
+		},
+		{
+			"name": "images",
+			"path": "../../WebFood/images"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "섹션8 반응형 웹"
+	}
+}
