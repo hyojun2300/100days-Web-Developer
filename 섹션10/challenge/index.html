@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/challenge/styles.css">
+    <title>Form Challenge</title>
+</head>
+<body>
+    <header>
+        <h1>Contact us</h1>
+    </header>
+    
+    <main>
+        <form action="" mothod="GET">
+            <section>
+                <h2>How can we help you?</h2>
+                <ul>
+                    <li>
+                        <label for="username">Your Name</label>
+                        <input type="text" id="username" name="user-name" required> 
+                    </li>
+
+                    <li>
+                        <label for="useremail">Your E-mail Address</label>
+                        <input type="email" id="useremail" name="user-email" required>
+                    </li>
+
+                    <li>
+                        <label for="usernumber">Your Phone number</label>
+                        <input type="number" id="usernumber" name="user-number" required>
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <ul>
+                    <li>
+                        <label for="usermessage">Your Message</label>
+                        <textarea name="user-message" id="usermessage" rows="8"></textarea>
+                    </li>
+
+                    <li>
+                        <label for="userfind">How did you find us?</label>
+                        <select name="user-find" id="userfind">
+                            <option value="find">Web Search</option>
+                            <option value="find">Instagram</option>
+                            <option value="find">Youtube</option>
+                        </select>
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <h2 id="How">How should we reply?</h2>
+                <ul>
+                    <li>
+                        <div class="form-control-inline">
+                            <input type="radio" id="usercallme" name="reply" value="call-me" required>
+                            <label for="usercallme">Call me</label>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <div class="form-control-inline">
+                            <input type="radio" id="useremail" name="reply" value="email" required>
+                            <label for="useremail">Send me an email</label>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="form-control-inline">
+                            <input type="radio" id="dontreply" name="reply" value="dont-reply" required>
+                            <label for="dontreply">Don't reply</label>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <ul>
+                    <li id="checkbox">
+                        <div class="form-control-inline">
+                            <input type="checkbox" id="userterm" name="user-term" required>
+                            <label for="userterm">Accept Terms</label>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <ul class="btn">
+                    <li>
+                        <button type="reset" id="reset">Clear</button>
+                    </li>
+
+                    <li>
+                        <button type="submit" id="submit">Submit</button>
+                    </li>
+                </ul>
+            </section>
+        </form>
+    </main>
+</body>
+</html>

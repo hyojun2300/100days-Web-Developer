@@ -1,0 +1,124 @@
+body {
+    background-color: azure;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+form {
+    width: 40rem;
+    background-color: aliceblue;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+h2 {
+    padding:1.5rem ;
+    margin: 0;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    padding: 0 1.5rem;
+    margin: 0;
+}
+
+label {
+    display: block;
+    padding: 0.5rem 0;
+    font-family: 'Roboto';
+}
+
+input, textarea, select {
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+input {
+    height: 2rem;
+}
+
+textarea {
+    resize: none;
+}
+
+select {
+    height: 2rem;
+    font-size: 1rem;
+}   
+
+input,
+textarea,
+select {
+    border: 1px solid balck;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    background-color: rgb(215, 215, 255);
+    border-radius: 4px;
+}
+
+#How {
+    padding-bottom: 0.5rem;
+}
+
+.form-control-inline {
+    display: flex;
+    align-items: center;
+}
+
+.form-control-inline label {
+    margin: 0;
+    padding: 0;
+}
+
+.form-control-inline input {
+    width: auto;
+    margin:0;
+    margin-right: 0.5rem;       
+}
+
+#checkbox {
+    padding: 1rem 0;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-bottom: 2rem;
+}
+
+button {
+    padding: 0.5rem 1.5rem;
+    margin: 2px;
+    font-size: 1rem;
+    border: 1px solid navy;
+    border-radius: 5px; 
+}
+
+#reset {
+    color:navy;
+    background-color: aliceblue;
+}
+
+#reset:hover {
+    background-color: rgb(213, 219, 224);
+}
+
+#submit {
+    color: white;
+    background-color: navy;
+}
+
+#submit:hover {
+    background-color: rgb(55, 55, 141);
+}
